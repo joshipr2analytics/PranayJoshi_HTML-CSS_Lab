@@ -1,0 +1,31 @@
+body {
+  background-image: url("../images/registration.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.registrationDiv {
+  margin-left: 700px;
+  margin-top: 250px;
+  text-align: center;
+  border: 2px solid red;
+  width: 400px;
+  justify-content: center;
+}
+
+.input-text {
+  width: 200px;
+  height: 30px;
+}
+
+.input-submit {
+  width: 70px;
+  height: 30px;
+  margin-left: 5px;
+  background-color: aqua;
+}
+
+input:focus {
+  background-color: steelblue;
+  opacity: 0.35;
+}

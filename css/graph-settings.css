@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+#q-graph {
+  position: relative;
+  margin: 70px;
+  width: 200px;
+  height: 400px;
+  background-color: lightyellow;
+}
+
+#q-graph tr,
+#q-graph th,
+#q-graph td {
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  text-align: center;
+}
+
+#q-graph #bar1 {
+  left: 0;
+}
+
+#q-graph #bar2 {
+  left: 60px;
+}
+
+#q-graph #bar3 {
+  left: 120px;
+}
+
+#q-graph tbody th {
+  font-weight: normal;
+}
+
+#q-graph .bar {
+  width: 40px;
+}
+
+#q-graph .sent {
+  left: 13px;
+  background-color: black;
+}
